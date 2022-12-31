@@ -5,7 +5,7 @@
 A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.
 
 <!-- [Demo](http://kangkanrajkhowa.github.io/Hover)  |
-[Tutorial](http://kangkanrajkhowa.co.uk/articles/hover-css-tutorial-introduction/) -->
+[Tutorial](http://kangkanrajkhowa.netlify.app/articles/hover-css-tutorial-introduction/) -->
 
 ## Contents
 - [Download/Install](#downloadinstall)
@@ -19,19 +19,19 @@ A collection of CSS3 powered hover effects to be applied to links, buttons, logo
     - [scss/less](#scssless)
     - [Other](#other)
 - [Browser Support](#browser-support)
-- [Using Grunt for Development](#using-grunt-for-development)
+<!-- - [Using Grunt for Development](#using-grunt-for-development) -->
 - [Using Sass/LESS for Development](#using-sassless-for-development)
-    - [_hacks](#\_hacks)
+    <!-- - [_hacks](#\_hacks) -->
     - [_mixins](#\_mixins)
     - [_options](#\_options)
 - [Contribute to Hover.css](#contribute-to-hovercss)
-- [Hire](#hire-kangkan-rajkhowa)
+- [Hire me](#hire-me)
 
 ## Download/Install
 
-- NPM: `npm install hover.css --save`
-- Bower: `bower install hover --save`
-- [Download Zip](https://github.com/kangkanrajkhowa/Hover/archive/master.zip)
+<!-- - NPM: `npm install hover.css --save` -->
+<!-- - Bower: `bower install hover --save` -->
+- [Download Zip](https://github.com/kangkanrajkhowa/Custom-hover/archive/master.zip)
 
 ## How To Use
 Hover.css can be used in a number of ways; either copy and paste the effect you'd like to use in your own stylesheet or reference the stylesheet. Then just add the class name of the effect to the element you'd like it applied to.
@@ -194,11 +194,11 @@ Many Hover.css effects rely on CSS3 features such as transitions, animations, tr
 
 Aside from the above mentioned browsers, Hover.css is supported across all major browsers. Please see [caniuse.com](http://caniuse.com/) for full support for many web technologies and test your webpages accordingly. It is recommended to apply fallback effects for older browsers, using CSS supported by those browsers or a feature testing library such as [Modernizr](http://modernizr.com/).
 
-## Using Grunt for Development
+<!-- ## Using Grunt for Development
 
 Grunt is non-essential but can speed up development. With [Grunt installed](http://gruntjs.com/getting-started), run `grunt` from the command line to set up a development server accessed at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) or your local IP for network testing. With Grunt running, Sass or LESS will be preprocessed (depending on whether you work out of the `scss` or `less` folder) and CSS files will be minified.
 
-**Note:** Originally Grunt was set up to autoprefix CSS properties but to make the project as accessible as possible, this is no longer the case. The `prefixed(property, value)` Sass/LESS mixin should be used for browser prefixing instead. See [Using Sass/LESS for Development](#using-sassless-for-development) and [Using LESS for Development].
+**Note:** Originally Grunt was set up to autoprefix CSS properties but to make the project as accessible as possible, this is no longer the case. The `prefixed(property, value)` Sass/LESS mixin should be used for browser prefixing instead. See [Using Sass/LESS for Development](#using-sassless-for-development) and [Using LESS for Development]. -->
 
 ## Using Sass/LESS for Development
 
@@ -206,8 +206,8 @@ Sass/LESS are non-essential but can speed up development. Preprocess Sass/LESS w
 
 Sass/LESS is used in the Hover.css project to separate various CSS into specific files. Each effect is within its own file in the `effects` directory. Hover.css also uses the following `.scss` and `.less` files:
 
-### _hacks
-Contains hacks (undesirable but usually necessary lines of code) applied to certain effects. [Hacks explained here](https://github.com/kangkanrajkhowa/Hover/wiki/Hacks-Explained).
+<!-- ### _hacks
+Contains hacks (undesirable but usually necessary lines of code) applied to certain effects. [Hacks explained here](https://github.com/kangkanrajkhowa/Hover/wiki/Hacks-Explained). -->
 
 ### _mixins
 Contains `prefixed` and `keyframes` mixins that apply the necessary prefixes you specify in `_options.scss` / `_options.less` to properties and keyframes.
@@ -264,7 +264,7 @@ If you'd like to contribute your own effects, please see the [Contributing Guide
 
 This project is made available under a free personal requirements.
 
-## Hire
+## Hire me
 [Kangkan Rajkhowa](https://kangkanrajkhowa.netlify.app) is a Senior Developer of [National Informatics Centre](https://assam.nic.in/).
 
 Hire [Kangkan](https://kangkanrajkhowa.netlify.app) for responsive websites, mobile app development, JavaScript, animation, and optimization.
